@@ -107,7 +107,10 @@ def play(game, x_player, o_player, print_game=True):
 
 
 if __name__ == '__main__':
-    x_player = SmartComputerPlayer('X')
+    x_player = RandomComputerPlayer('X')
     o_player = HumanPlayer('O')
     t = TicTacToe()
     play(t, x_player, o_player, print_game=True)
+
+''' The two most useful concepts that I learned from lecture today were list 
+comprehension and the documentation for PEP8.'''
